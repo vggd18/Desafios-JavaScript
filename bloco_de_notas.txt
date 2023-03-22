@@ -1,0 +1,13 @@
+FUNÇÕES RELEVANTES EM JS
+alert()
+document.write()
+console.log()
+parseInt()
+parseFloat()
+toString()
+.charAt() -> posição do caractere 
+.indexOf()
+.replace(_,_)
+.substr(posInicial,qtdChar)
+.toLowerCase()
+.toUpperCase()

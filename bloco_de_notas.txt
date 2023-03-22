@@ -11,3 +11,17 @@ toString()
 .substr(posInicial,qtdChar)
 .toLowerCase()
 .toUpperCase()
+MOUSE:
+onclick / ondclick 
+onmouseup / onmouseover / onmouseout
+TECLADO:
+onkewdown / onkeypress / onkeyup
+JANELA:
+onresize / onscroll
+FORMS:
+onfocus / onblur / onchange
+
+getElementByID()
+getElementsByTagName()
+getElementsByClassName()
+getElementsByName()

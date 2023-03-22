@@ -9,19 +9,44 @@
     <body>
         <h2>DESAFIO 1: Inversor de variável</h2>
         <h3>Essa função criada visa inverter o valor das variáveis</h3>
-        <script src="var_invert.js"></script>
+        <form>
+            <label for="fnum">Primeiro Número:</label>
+            <input type="text" id="fnum" name="fnum"><br><br>
+            <label for="snum">Segundo Número:</label>
+            <input type="text" id="snum" name="snum"><br><br>
+            <input type="button" value="Enviar" onclick="var_invert()"> <br><br>
+            <input type="text" disabled="disabled" id="result1" class="resultados">
+        </form>
+        
 
         <h2>DESAFIO 2:</h2>
         <h3>Crie uma aplicação capaz de identificar a faixa etária com base na idade informada pelo
             usuário.</h3>
-        <script src="ifelse.js"></script>
+        <form>
+            <label for="fnum">Digite sua Idade</label>
+            <input type="text" id="idade" name="idade"><br><br>
+            <input type="button" value="Enviar" onclick="faixa_etaria(parseInt(getElementById('idade').value))"> <br><br>
+            <input type="text" disabled="disabled" id="result2" class="resultados">
+        </form>
+        
 
         <h2>DESAFIO 3:</h2>
         <h3>Crie uma aplicação para efetuar o cálculo do índice de massa corporal. </h3>
-        <script src="imc.js"></script>
+        <form>
+            <label for="altura">Digite sua altura em centímetros: </label>
+            <input type="text" id="altura" name="altura"><br><br>
+
+            <label for="peso">Digite seu peso em quilos: </label>
+            <input type="text" id="peso" name="peso"><br><br>
+
+            <input type="button" value="Enviar" onclick="imc_calc()"> <br><br>
+            <input type="text" disabled="disabled" id="IMC" class="resultados">
+        </form>
         
-        <h2>DESAFIO 4:</h2>
-        <h3>Crie uma aplicação para efetuar cálculo aritméticos das 4 operações básicas.</h3>
-        <script src="calculadora_simples.js"></script>
+        
+        <!--<h2>DESAFIO 4:</h2>
+        <h3>Crie uma aplicação para efetuar cálculo aritméticos das 4 operações básicas.</h3>-->
+        
+        <script src="script.js"></script>
     </body>
 </html>

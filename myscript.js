@@ -11,9 +11,7 @@ toString()
 */
 var a = prompt('Variavel 1')
 var b = prompt('Variável 2')
-var c
-
-c = a
+var c = a
 a = b
 b = c
 

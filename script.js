@@ -65,3 +65,17 @@ function imc_calc(){
         document.getElementById('IMC').value = 'Seu IMC é: '+ Math.round(m) + ' | Obesidade Grau III.'
     }
 }
+
+//OPERAÇÕES MATEMATICAS
+function soma(n1,n2){
+    document.getElementById('calculadora').value = (n1+n2)
+}
+function subtracao(n1,n2){
+    document.getElementById('calculadora').value = (n1-n2)
+}
+function multiplicacao(n1,n2){
+    document.getElementById('calculadora').value = (n1*n2)
+}
+function divisao(n1,n2){
+    document.getElementById('calculadora').value = (n1/n2)
+}

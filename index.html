@@ -44,8 +44,24 @@
         </form>
         
         
-        <!--<h2>DESAFIO 4:</h2>
-        <h3>Crie uma aplicação para efetuar cálculo aritméticos das 4 operações básicas.</h3>-->
+        <h2>DESAFIO 4:</h2>
+        <h3>Crie uma aplicação para efetuar uma calculadora simples</h3>
+        <form>
+            
+            <label for="num1">Digite o primeiro número da operação: </label>
+            <input type="text" id="num1" name="num1"><br><br>
+
+            <label for="num2">Digite o segundo número da operação: </label>
+            <input type="text" id="num2" name="num2"><br><br>
+
+            <input type="button" value="+" onclick="soma(parseInt(getElementById('num1').value), parseInt(getElementById('num2').value))" class="operadores"> 
+            <input type="button" value="-" onclick="subtracao(parseInt(getElementById('num1').value), parseInt(getElementById('num2').value))" class="operadores"> 
+            <input type="button" value="x" onclick="multiplicacao(parseInt(getElementById('num1').value), parseInt(getElementById('num2').value))" class="operadores"> 
+            <input type="button" value="/" onclick="divisao(parseInt(getElementById('num1').value), parseInt(getElementById('num2').value))" class="operadores"> 
+            <br><br>
+
+            <input type="text" disabled="disabled" id="calculadora" class="resultados">
+        </form>
         
         <script src="script.js"></script>
     </body>

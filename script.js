@@ -79,3 +79,18 @@ function multiplicacao(n1,n2){
 function divisao(n1,n2){
     document.getElementById('calculadora').value = (n1/n2)
 }
+
+function append(lista){
+    var objeto = document.getElementById('objeto').value
+    if (objeto == undefined || objeto == null){
+        alert('Informe um valor válido')
+    }
+    else{
+        if (lista.indexOf())
+    }
+}
+
+function ordenar(){
+
+}
+var lista = new Array()

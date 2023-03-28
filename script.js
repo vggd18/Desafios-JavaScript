@@ -100,4 +100,22 @@ function ordenar(){
     lista.sort()
     document.getElementById('array').value = lista
 }
+
+function fat(n){
+    // Passo Base
+    if (n == 0 || n == 1) {
+        return 1
+    }
+    //passo indutivo
+    else{
+        return n * fat(n-1)
+    }
+}
+
+function fatorial(n){
+    n = parseInt(n)
+    var result = fat(n)
+    document.getElementById('fator').value = result
+}
+
 var lista = new Array()

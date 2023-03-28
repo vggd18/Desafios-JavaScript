@@ -86,11 +86,18 @@ function append(lista){
         alert('Informe um valor válido')
     }
     else{
-        if (lista.indexOf())
+        if (lista.indexOf('objeto') != -1){
+            alert('Objeto já foi adicionado')
+        }
+        else {
+            lista.push(objeto)
+        }
     }
+    document.getElementById('array').value = lista
 }
 
 function ordenar(){
-
+    lista.sort()
+    document.getElementById('array').value = lista
 }
 var lista = new Array()

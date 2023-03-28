@@ -25,3 +25,6 @@ getElementByID()
 getElementsByTagName()
 getElementsByClassName()
 getElementsByName()
+
+ARRAY
+push() / unshift() / pop() / shift()

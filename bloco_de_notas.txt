@@ -28,3 +28,10 @@ getElementsByName()
 
 ARRAY
 push() / unshift() / pop() / shift()
+
+
+BROWSER OBJECT MODEL (BOM)
+open() / close() // pop up
+window.open('', 'Nome', 'proporção')
+window.print()
+

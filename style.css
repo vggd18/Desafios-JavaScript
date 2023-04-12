@@ -6,3 +6,13 @@
     width: 50px;
     font-size: 30px;
 }
+a {
+    background-color: #f62a14;
+    color: #ffffce;
+    text-decoration: none;
+    padding: 15px;
+}
+a:hover{
+    background-color: #ffffce;
+    color: #f62a14;
+}
